@@ -8,7 +8,9 @@ Repository metadata is exposed to your Jekyll site's configuration in the `site.
 
 Simply, reference any of the below keys as you would any other site configuration value present in your `_config.yml` file, prefacing the key with `site.github`.
 
-For example, to list a project's name, you might write something like `The project is called {{ site.github.project_title }}` or to list an organization's open source repositories, you might use the following:
+For example, to list a project's name, you might write something like `The project is called {{ 
+
+site.github.project_title }}` or to list an organization's open source repositories, you might use the following:
 
 <!-- {% raw %} -->
 ```liquid
